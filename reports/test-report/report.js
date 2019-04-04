@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1160184500,
+  "duration": 1174256000,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,9 +37,8 @@ formatter.match({
   "location": "US1StepsDef.iAccessTheLandingPageOfCOS()"
 });
 formatter.result({
-  "duration": 2937621000,
-  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Contacts Orchestrator Solution]\u003e but was:\u003c[]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat junit.framework.TestCase.assertEquals(TestCase.java:269)\r\n\tat US1StepsDef.iAccessTheLandingPageOfCOS(US1StepsDef.java:19)\r\n\tat ✽.Given I access the landing page of COS(US1.feature:6)\r\n",
-  "status": "failed"
+  "duration": 1061684400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -51,7 +50,8 @@ formatter.match({
   "location": "US1StepsDef.theTitleOfThePageShouldBe(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 27614000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -63,10 +63,11 @@ formatter.match({
   "location": "US1StepsDef.iCanSeeTheText(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 16421800,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 1018100,
+  "duration": 1961300,
   "status": "passed"
 });
 });
